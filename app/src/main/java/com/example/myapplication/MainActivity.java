@@ -53,4 +53,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,compound.class);
         startActivity(intent);
     }
+    public void menus(View view){
+        Intent intent=new Intent(this,menus.class);
+        startActivity(intent);
+    }
+    public void spinner(View view){
+        Intent intent=new Intent(this,spinner.class);
+        startActivity(intent);
+    }
 }
